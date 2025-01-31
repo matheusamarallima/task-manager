@@ -31,6 +31,7 @@ https://www.h2database.com/html/download.html
 
 ### 3. Rodar a aplicação.
 ```bash
+mvn clean install
 mvn spring-boot:run
 ```
 ## Endpoints
