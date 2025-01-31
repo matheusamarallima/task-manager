@@ -11,6 +11,28 @@ Este é um sistema de gerenciamento de tarefas (To-Do List) desenvolvido com Jav
 - JUnit
 - Maven
 
+
+## Configuração
+
+Para rodar a aplicação localmente, siga os passos abaixo:
+
+### 1. Clonar o Repositório
+
+Primeiro, clone o repositório para o seu ambiente local:
+
+```bash
+git clone https://github.com/matheusamarallima/task-manager.git
+```
+
+### 2. Instalar o H2.
+```bash
+https://www.h2database.com/html/download.html
+```
+
+### 3. Rodar a aplicação.
+```bash
+mvn spring-boot:run
+```
 ## Endpoints
 
 ### Criar Tarefa
